@@ -1,0 +1,238 @@
+body {
+    max-width: 1200px;
+    display: grid;
+}
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+}
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    list-style-type: none;
+    display: inline;
+}
+
+.header {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+#logo {
+    height: 25px;
+    width: 152px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.navbar {
+    position: absolute;
+    justify-self: flex-end;
+}
+.headtext {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#learnbox {
+    background: blue;
+    border-radius: 50px;
+    margin: 0 325px;
+    padding: 25px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.feathers {
+    size: cover;
+    height: 668px;
+    width: 1440px;
+}
+
+
+.firstarticle {
+    background: #F3F7F8;
+    size: cover;
+    height: 750px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.textbox {
+    padding: 300px 150px;
+}
+#aboutus {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33pt;
+    font-weight: 1000;
+}
+#subheading {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20pt;
+    color: #666666;
+}
+#paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+    color: #95989A;
+}
+#limbs {
+    margin-right: 200px;
+}
+#arm {
+    height: 272px;
+    width: 372px;
+}
+#hands {
+    height: 272px;
+    width: 372px;
+}
+.secondarticle {
+    background: #FFFFFF;
+    height: 888px;
+    width: 1440px;
+    margin-bottom: 50px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 33pt;
+    font-weight: 1000;
+}
+.content {
+    margin: 100px;
+}
+.parent {
+    display: grid;
+    grid-template-rows: 100px, 100px;
+    grid-template-columns: 2fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 30px;
+    min-height: 75vh;
+}
+.viewmore {
+    margin: 0 1100px;
+    height: 18px;
+    width: 138px;
+    
+} 
+.childone {
+    background: #F4F4F4;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+.childtwo {
+    background-color: #F4F4F4;
+}
+.childthree {
+    background-color: #F4F4F4;
+}
+.childfour {
+    background-color: #F4F4F4;
+}
+.childfive {
+    background-color: #F4F4F4;
+}
+
+#product {
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    font-weight: bolder;
+}
+#price {
+    color: gray;
+    font-family: 'Open Sans', serif;
+    font-weight: lighter;
+    font-size: 15pt;
+    text-align: ;
+}
+.thirdarticle {
+    background: #1D1D1D;
+    height: 333px;
+    width: 1440px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45pt;
+    font-weight: bold;
+    margin-left: 50px;
+}
+.blankspace {
+    background-color: #F3F7F8;
+    height: 632px;
+    width: 50%;
+}
+.fourtharticle {
+    padding: 300px 150px;
+    text-align: center;
+    display: inline-block;
+}
+.subscribe {
+    color: #666666;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 20pt;
+}
+.bodytext {
+    color: #95989A;
+    font-family: 'Open Sans';
+    font-size: 14pt;
+}
+.sentbox {
+    color: white;
+    font-style: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    background: blue;
+    border-radius: 0 50px 50px 0;
+    padding: 5px;
+}
+.fiftharticle {
+    background: #F3F7F8;
+    height: 273px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.media {
+    height: 25px;
+    width: 1050px;
+    align-self: space-between;
+    
+}
+footer {
+    background: #1D1D1D;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    height: 298px;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+#copyright {
+    color: #666666;
+}
+
+@media screen and (min-width: 640px) {
+    body {
+        background-size: 50%;
+    }
+}
