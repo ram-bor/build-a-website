@@ -1,16 +1,16 @@
+*{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
 body {
-    max-width: 1200px;
-    display: grid;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
 }
-h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 80px;
-    font-weight: normal;
-}
+
 li {
     font-family: 'Montserrat', sans-serif;
     font-size: 11pt;
-    list-style-type: none;
     display: inline;
 }
 
@@ -20,8 +20,14 @@ li {
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-
+    width: 100%;
 }
+.feathers {
+    size: cover;
+    width: 100vw;
+}
+
+
 #logo {
     height: 25px;
     width: 152px;
@@ -43,16 +49,11 @@ li {
 #learnbox {
     background: blue;
     border-radius: 50px;
-    margin: 0 325px;
+    /* margin: 0 325px; */
     padding: 25px;
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-}
-.feathers {
-    size: cover;
-    height: 668px;
-    width: 1440px;
 }
 
 
@@ -60,7 +61,7 @@ li {
     background: #F3F7F8;
     size: cover;
     height: 750px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -98,7 +99,7 @@ li {
 .secondarticle {
     background: #FFFFFF;
     height: 888px;
-    width: 1440px;
+    width: 100%;
     margin-bottom: 50px;
 }
 h2 {
@@ -152,12 +153,11 @@ h2 {
     font-family: 'Open Sans', serif;
     font-weight: lighter;
     font-size: 15pt;
-    text-align: ;
 }
 .thirdarticle {
     background: #1D1D1D;
     height: 333px;
-    width: 1440px;
+    width: 100%;
     color: white;
     font-family: 'Playfair Display', serif;
     font-size: 18pt;
@@ -175,8 +175,9 @@ span {
 .blankspace {
     background-color: #F3F7F8;
     height: 632px;
-    width: 50%;
+    width: 100%;
 }
+
 .fourtharticle {
     padding: 300px 150px;
     text-align: center;
@@ -204,7 +205,7 @@ span {
 .fiftharticle {
     background: #F3F7F8;
     height: 273px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -212,7 +213,7 @@ span {
 }
 .media {
     height: 25px;
-    width: 1050px;
+    width: 100%;
     align-self: space-between;
     
 }
@@ -221,7 +222,7 @@ footer {
     color: white;
     font-family: 'Open Sans', sans-serif;
     height: 298px;
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -231,8 +232,8 @@ footer {
     color: #666666;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     body {
         background-size: 50%;
     }
-}
+} */
