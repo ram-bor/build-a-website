@@ -86,3 +86,34 @@ body {
     margin: 40px 0 0 0;
     letter-spacing: 1.5px;
 }
+
+.about-us {
+    height: 668px;
+    background: #F3F7F8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-us-text {
+    font-family: "Montserrat" sans-serif;
+}
+
+.delectus-text {
+    font-family: 'Playfair Display';
+    color: #666666;
+}
+
+.smaller-text {
+    font-family: "Open Sans", sans-serif;
+    color: #95989A;
+}
+
+.limbs {
+    display: flex;
+}
+
+.limbs img {
+    height: 272px;
+    width: 372px;
+}
