@@ -92,11 +92,18 @@ body {
     background: #F3F7F8;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+}
+.about-us-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 120px 135px;
 }
 
 .about-us-text {
     font-family: "Montserrat" sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .delectus-text {
@@ -111,9 +118,29 @@ body {
 
 .limbs {
     display: flex;
+    flex-direction: column;
+    height: 427px;
+    width: 545px;
+    position: relative;
+    z-index: initial;
 }
 
 .limbs img {
     height: 272px;
     width: 372px;
+}
+
+
+.arm {
+    position: absolute;
+    z-index: initial;
+    top: 0;
+    left: 0;
+}
+
+.hands {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    right:0;
 }
