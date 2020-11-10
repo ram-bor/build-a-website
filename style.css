@@ -164,7 +164,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+.product-wrapper p {
+    font-weight: bold;
+    font-size: 2em;
+    color: #1005FF;
+}
 
+.product-wrapper .price {
+    font-weight: normal;
+    font-size: 15px;
+    color: #95989A;
 }
 
 .big-product {
@@ -176,7 +186,6 @@ body {
     height: 582px;
     width: 570px;
 }
-
 
 .product {
     background: #F3F7F8;
