@@ -78,9 +78,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     font-weight: normal;
-    border: 2px solid blue;
+    border: 2px solid #1005FF;
     border-radius: 50px;
-    background-color: blue;
+    background-color: #1005FF;
     color: rgba(255, 255, 255, .9);
     padding: 10px 30px;
     margin: 40px 0 0 0;
@@ -236,7 +236,7 @@ body {
 }
 
 .contact {
-    width: 100%;
+    width: 100vw;
     height: 632px;
     display: flex;
 
@@ -249,12 +249,17 @@ body {
 
 .contact-content {
     width: 50%;
-    margin: 10%;
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-content p {
-    margin: 5% 0 5% 0;
+    margin: 2% 17%; 
+}
+
+.contact-content .contact-email {
+    margin: 4% 17%;
 }
 
 .contact-header {
@@ -275,4 +280,34 @@ body {
     color: #95989A;
 }
 
+.contact-email {
+    display: flex;
+}
 
+.email-input {
+    color: #95989A;
+    font-family: 'Playfair Display';
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 25px 0 0 25px;
+    padding: 0 236px 15px 35px;
+    display: inline;
+}
+
+.sent-button {
+    background: #1005FF;
+    border: 2px solid #1005FF;
+    border-radius: 0 25px 25px 0;
+    padding: 10px;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    font-size: 12px;
+    padding: 15px 30px;
+    letter-spacing: 1.5px;
+    display:flex;
+}
+
+.sent {
+    margin: auto;
+}
