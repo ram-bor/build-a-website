@@ -27,7 +27,7 @@ body {
 
 .logo {
     font-size: 2em;
-    font-weight: bolder;
+    font-weight: bold;
     color: black;
     width: 50px;
     position: relative;
@@ -105,6 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 100px;
 }
 
 .delectus-text {
@@ -124,6 +125,7 @@ body {
     width: 545px;
     position: relative;
     z-index: initial;
+    margin-left: 50px;
 }
 
 .limbs img {
@@ -325,7 +327,7 @@ body {
     align-items: center;
 }
 
-.client-wrapper div{
+.client-wrapper div {
     margin: 45px;
 }
 
@@ -339,13 +341,18 @@ body {
     background: #1D1D1D;
     color: #FFFFFF;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .footer-content {
     display: flex;
-    justify-items: space-between;
     align-items: center;
+}
+
+.footer-content div p {
+    display: inline-block;
+    max-width: 25%;
 }
 
 .nippy-footer {
@@ -373,7 +380,7 @@ body {
 }
 
 .footer-socialmedia div {
-    margin: 20px;
+    margin: 10px;
 }
 
 .socialmedia-icons {
