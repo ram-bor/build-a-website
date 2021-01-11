@@ -62,13 +62,12 @@ body {
 
 .header-text h1 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 5em;
+    font-size: 80px;
     font-weight: normal;
 }
-
 .vero-text {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: none;
     text-align: center;
     margin: 20px 0 0 0;
@@ -105,17 +104,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 70px;
+}
+
+.about-us-text h3 {
+    font-size: 33px;
+    font-weight: bolder;
 }
 
 .delectus-text {
     font-family: 'Playfair Display';
     color: #666666;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .smaller-text {
     font-family: "Open Sans", sans-serif;
     color: #95989A;
+    font-size: 14px;
 }
 
 .limbs {
@@ -151,14 +158,22 @@ body {
 .our-products {
     width: 100%;
     height: 888px;
-    padding: 4.5%;
+    padding: 105px 135px;
+}
+
+.our-products-heading h2{
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.our-products-heading p {
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .our-products-heading{
     display: flex;
     justify-content: space-between;
-    font-weight: bolder;
-    margin: 4% 0;
 }
 
 .product-wrapper {
