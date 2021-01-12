@@ -42,6 +42,7 @@ body {
     left: 250%;
     top: 50%;
 } */
+
 .nav {
     display: flex;
 }
@@ -58,11 +59,12 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 200px 280px;
+    font-size: 100%;
 }
 
 .header-text h1 {
     font-family: 'Playfair Display', sans-serif;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: normal;
 }
 .vero-text {
