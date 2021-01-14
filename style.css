@@ -90,29 +90,25 @@ body {
 
 .about-us {
     width: 100%;
-    max-width: 100%;
     height: 668px;
     background: #F3F7F8;
-    display: flex;
-    align-items: center;
 }
 .about-us-wrapper{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 120px 135px;
+    display: flex;
+    width: 100%;
+    font-size: 1rem;
 }
 
 .about-us-text {
     font-family: "Montserrat" sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-right: 70px;
+    width: 50%;
+    margin: 190px 200px 137px 135px;
 }
 
 .about-us-text h3 {
-    font-size: 33px;
-    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .delectus-text {
@@ -132,10 +128,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 427px;
-    width: 545px;
+    width: 50%;
     position: relative;
-    z-index: initial;
-    margin-left: 50px;
+    /* z-index: initial; */
+    margin: 120px 135px 121px 20px
 }
 
 .limbs img {
@@ -155,7 +151,7 @@ body {
     position: absolute;
     z-index: 1;
     bottom: 0;
-    right:0;
+    right: 0;
 }
 
 .our-products {
@@ -392,4 +388,13 @@ body {
     justify-content: center;
 }
 
-@media screen and (max-width: )
+/* Media Queries */
+
+@media (max-width: 1000px) {
+
+}
+@media (max-width: 550px) {
+    .header-text {
+        width: 50%;
+    }
+}
